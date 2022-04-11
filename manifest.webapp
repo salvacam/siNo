@@ -1,7 +1,7 @@
 {
   "version": "0.1",
     "name":"Si No",
-    "description":"sino",
+    "description":"si no",
     "launch_path" : "/index.html",
     "icons":{
       "128": "img/icon-128x128.png"
