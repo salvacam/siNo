@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Interval Timer</title>
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, user-scalable=no" />
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+  	<meta name="theme-color" content="#CCC">
+
+	<link rel="icon" href="img/icon.png">
+
+  	<style type="text/css">
+  		html{
+  			width: 100%;
+  			height: 100%;
+		}
+
+		html.rest, 
+		.jumbotron.rest {
+	  		background: pink;
+		}
+
+		html.work,
+		.jumbotron.work {
+  			background: cyan;
+		}
+
+		body {
+		    font-family: Helvetica;
+		    font-size: 16px;
+		    min-width: 240px;
+		}
+
+		header {			
+		    background-color: #ccc;
+		    border-bottom: 1px solid #666;
+		}
+
+		header h3 {
+			width: 200px;
+		    margin: 0 auto;
+		    font-size: 20px;
+		    font-weight: bold;
+		    padding: 5px 0;
+		    padding-left: 3%;
+		    padding-right: 3%;
+		    padding-bottom: 2px;
+		    padding-top: 4px;
+		}
+
+		header h3 img {
+			margin-right: 15px;
+		}
+
+		.jumbotron {
+		    background-color: white;
+		}
+
+		.jumbotron.container {
+		  margin-right: 0px;
+		  margin-left: 0px;
+		  padding-left: 0px;
+		  padding-right: 5px;
+		}
+
+		.principal {
+		  margin-top: 5px;
+		  text-align: center;
+		}
+
+
+	  	.principal .title {
+		    display: inline-block;
+		    width: 50px;
+		    text-align: left;
+	  	}
+
+	  	.principal .value {
+		    width: 25px;
+		    height: 20px;
+		    font-size: 20px; 
+		    margin-left: 10px;
+		    margin-right: 10px;
+	  	}
+
+	  	.principal a,
+		.principal a:focus,
+		.principal a:hover,
+		.principal a.nv-select {
+		    height: 20px;
+		    font-size: 20px;
+			width: 100px;
+		        border-radius: 10px;
+	  	}
+
+		div.clear {
+	  		height: 5px;
+		}
+
+  	</style>
+
+	<link rel="stylesheet" href="css/framework.min.css">  
+
+    <link rel="manifest" href="./manifest.json">
+
+    <meta name="description" content="Si No">
+    <meta name="keywords" content="si no, si, no, Bluey" />
+
+    <meta name="author" content="Salvador Camacho" /> 
+
+</head>
+
+<body>
+
+	<header>
+		<h3>
+			<img src="img/icon.png" alt="icon" height="24">SI NO
+		</h3>                    
+	</header>
+
+    <div class="container principal jumbotron" id="principalDiv">
+
+			<a id="si" class="btn btn-b btn-sm navigatorConfig" tabindex="0">SI</a>
+
+			<div class="clear"></div>
+			<div class="clear"></div>
+			<div class="clear"></div>
+			<a id="no" class="btn btn-c btn-sm navigatorConfig" tabindex="0">NO</a>
+	</div>
+	<script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+    "name":"Si No",
+    "description":"sino",
+    "launch_path" : "/index.html",
+    "icons":{
+      "128": "img/icon-128x128.png"
+    },  
+  "permissions": {
+  },
+  "developer": {
+        "name":"Salvador Camacho Soto",
+        "url":"https://salvacam.js.org/"
+    }
+}
